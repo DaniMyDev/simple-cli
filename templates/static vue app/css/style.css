@@ -1,0 +1,32 @@
+@import 'config.css';
+
+#logo{
+    text-align: center;
+    margin-top: 20vh;
+}
+#logo img{
+    width: 150px;
+    margin: 20px 0px;
+}
+
+#message{
+    font-size: var(--font-size-normal);
+    text-align: center;
+}
+
+.link{
+    margin: 20px;
+    font-size: var(--font-size-link);
+    text-align: center;
+}
+
+.link a{
+    padding: 10px 20px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: var(--font-hover-color);
+}
